@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuições e pacotes
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Arquivos de ambiente e segredos
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Testes e cobertura
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Ferramentas de desenvolvimento
+# =========================
+.vscode/
+.idea/
+.history/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Cache e arquivos temporários
+# =========================
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# =========================
+# Dados locais e arquivos grandes
+# =========================
+data/raw/
+data/interim/
+data/external/
+
+# =========================
+# Resultados temporários
+# =========================
+results/tmp/
+results/temp/
+
+# =========================
+# Banco de dados local
+# =========================
+*.db
+*.sqlite
+*.sqlite3
